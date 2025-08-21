@@ -24,7 +24,7 @@ cd feu-mobprog-activities-2526
 
 ### 3. Create your own branch
 
-(Replace `your-branch-name` with your name or student ID)
+(Replace `your-branch-name` with your name and student ID Ex. DELACRUZ-2020123456)
 
 ```bash
 git checkout -b your-branch-name
