@@ -4,70 +4,56 @@
 This is the repository for **FEU Manila S.Y. 2025 - 2026** under the course subject **"Introduction to Mobile Programming"**.  
 
 ## 📌 Guidelines
-- Each student **must create their own branch** in this repository.  
-- Work on your activities **only in your branch**.  
-- Push your updates to your branch after completing an activity.  
+- Each student must **fork this repository** to their own GitHub account.  
+- Work on your activities **only in your forked repository**.  
+- Push your updates to your fork.  
+- (Optional) If required by your instructor, submit a **Pull Request (PR)** back to the main repository.  
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-Open **CMD** or **Terminal** and run:
+### 1. Fork the repository
+- Go to the GitHub page:  
+  [FEU Mobile Programming Repo](https://github.com/MascySylvan/feu-mobprog-activities-2526)  
+- Click the **Fork** button (top-right corner).  
+- This will create a copy of the repo under your own GitHub account.  
+
+### 2. Clone your fork
+Open **CMD** or **Terminal** and run (replace `your-username` with your GitHub username):
 ```bash
-git clone https://github.com/MascySylvan/feu-mobprog-activities-2526.git
+git clone https://github.com/your-username/feu-mobprog-activities-2526.git
 ````
 
-### 2. Go inside the repository folder
+### 3. Go inside the repository folder
 
 ```bash
 cd feu-mobprog-activities-2526
-```
-
-### 3. Create your own branch
-
-(Replace `your-branch-name` with your name and student ID Ex. DELACRUZ-2020123456)
-
-```bash
-git checkout -b your-branch-name
-```
-
-### 4. Push your branch to the remote repository
-
-```bash
-git push -u origin your-branch-name
 ```
 
 ---
 
 ## 📂 Working on Activities
 
-### Pulling latest changes (to update your local repo)
-
-```bash
-git pull origin main
-```
-
-### Adding your changes
+### Add your changes
 
 ```bash
 git add .
 ```
 
-### Committing your work
+### Commit your work
 
 ```bash
 git commit -m "Added Activity X"
 ```
 
-### Pushing your updates
+### Push your updates to your fork
 
 ```bash
-git push origin your-branch-name
+git push origin main
 ```
 
 ---
-
 ## ✅ Notes
 
-* **Do not push directly to `main` branch.**
-* Always work in your own branch.
-* Make sure to pull the latest updates before starting new work.
+* **Do not push directly to the original repository.**
+* Always push your activities to **your forked repository**.
+* If instructed, create a **Pull Request** to merge your work into the main repository.
